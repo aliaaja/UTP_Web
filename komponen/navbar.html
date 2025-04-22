@@ -1,0 +1,29 @@
+<!-- SIDEBAR BACKDROP -->
+<div id="backdrop" class="fixed inset-0 bg-black/50 z-30 hidden md:hidden"></div>
+
+<!-- SIDEBAR MOBILE -->
+<div id="sidebar" class="fixed top-0 left-0 h-full w-2/3 bg-white text-black p-6 z-40 transform -translate-x-full transition-transform duration-300 md:hidden">
+  <ul class="space-y-4 text-lg font-bold">
+    <li><a href="index.html" class="block hover:text-pink-500" onclick="closeSidebar()">Home</a></li>
+    <li><a href="Intro.html" class="block hover:text-pink-500" onclick="closeSidebar()">Introduction</a></li>
+    <li><a href="AboutMe.html" class="block hover:text-pink-500" onclick="closeSidebar()">About Me</a></li>
+    <li><a href="MyProject.html" class="block hover:text-pink-500" onclick="closeSidebar()">My Project</a></li>
+    <li><a href="Contact.html" class="block hover:text-pink-500" onclick="closeSidebar()">Contact</a></li>
+  </ul>
+</div>
+
+<!-- NAVIGATION -->
+<nav class="p-4 fixed top-0 w-full z-50 flex items-center justify-between">
+  <button id="menu-btn" class="md:hidden ml-4 z-50">
+    <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+      <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16"/>
+    </svg>
+  </button>
+  <ul class="hidden md:flex justify-end gap-8 text-lg font-bold text-white font-serif pr-10 w-full">
+    <li><a href="index.html" class="hover:text-pink-300">Home</a></li>
+    <li><a href="Intro.html" class="hover:text-pink-300">Introduction</a></li>
+    <li><a href="AboutMe.html" class="hover:text-pink-300">About Me</a></li>
+    <li><a href="MyProject.html" class="hover:text-pink-300">My Project</a></li>
+    <li><a href="Contact.html" class="hover:text-pink-300">Contact</a></li>
+  </ul>
+</nav>

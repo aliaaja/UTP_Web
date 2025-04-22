@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Introduction - Alia Rahayu</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="script.js"></script>
+</head>
+<body class="min-h-screen w-full font-serif overflow-x-hidden bg-black relative">
+
+  <!-- BACKDROP for sidebar -->
+  <div id="backdrop" class="fixed inset-0 bg-black/50 z-20 hidden md:hidden"></div>
+
+  <!-- BACKGROUND IMAGE -->
+  <div class="absolute inset-0 -z-10">
+    <img src="img/kertas.avif" alt="Background" class="w-full h-full object-cover" />
+  </div>
+
+  <div id="header-placeholder"></div>
+
+  <!-- MAIN CONTENT -->
+  <section class="pt-32 px-6 md:px-20 pb-10 max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-center gap-10">
+    <!-- TEXT SECTION -->
+    <div class="md:w-1/2 flex flex-col justify-center items-center md:items-start text-center md:text-left">
+      <h2 class="text-6xl md:text-8xl font-bold tracking-wide mb-8 relative text-black">
+        <span class="relative">
+          Hello!
+          <span class="absolute -top-4 -left-6 text-2xl">✨</span>
+        </span>
+      </h2>
+
+      <!-- PARAGRAPH WITH BLUR BACKGROUND -->
+      <div class="bg-white/30 backdrop-blur-md rounded-xl p-6 text-black shadow-lg">
+        <p class="leading-relaxed text-2xl md:text-3xl">
+          I’m Alia, I’ve always been captivated by the power of design.
+          Whether it's choosing the perfect color palette or selecting typography that sparks emotion,
+          I love diving into the details. I’m a keen learner, always exploring new tools and trends in design.
+          My goal is to craft visuals that are both meaningful and memorable.
+        </p>
+      </div>
+    </div>
+
+    <!-- IMAGE SECTION -->
+    <div class="md:w-1/2 flex justify-center">
+      <img src="img/Alia.jpg" alt="ALIA RAHAYU" class="rounded-xl shadow-lg w-full max-w-xs md:max-w-md object-cover"/>
+    </div>
+  </section>
+
+  <!-- FOOTER QUOTE -->
+  <div class="absolute bottom-4 right-6 text-black text-md md:text-lg italic z-10 font-serif">
+    - ALIA RAHAYU
+  </div>    
+</body>
+</html>

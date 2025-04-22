@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Project - Alia Rahayu</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="script.js"></script>
+  <style>
+    html, body {
+      height: 100%;
+      margin: 0;
+    }
+    body {
+      background-image: url('img/kertas.avif');
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      background-attachment: fixed;
+    }
+  </style>
+</head>
+<body class="min-h-screen w-full font-serif overflow-x-hidden">
+
+  <div id="header-placeholder"></div>
+
+  <main class="pt-32 p-8 max-w-7xl mx-auto">
+    <!-- Heading baru di tengah -->
+    <div class="text-center mb-12">
+      <h2 class="text-6xl md:text-8xl font-bold tracking-wide relative text-black inline-block">
+        <span class="relative">
+          My Project
+          <span class="absolute -top-4 -left-6 text-2xl">✨</span>
+        </span>
+      </h2>
+    </div>
+
+    <!-- Project cards -->
+    <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+      <!-- Project 1 -->
+      <div class="bg-white/30 backdrop-blur-md p-10 rounded-2xl shadow-lg min-h-[350px]">
+        <h3 class="text-3xl font-bold mb-3">Treasure Hunt</h3>
+        <p class="mb-3 text-xl">Terminal-Based Adventure Game</p>
+        <div class="flex flex-wrap gap-2 mb-4">
+          <span class="bg-black text-white px-3 py-1 rounded-full text-xl">C++</span>
+        </div>
+        <a href="https://github.com/WildanMukmin/ProjectUAS" class="text-red-600 hover:underline text-xl">View on GitHub</a>
+      </div>
+
+      <!-- Project 2 -->
+      <div class="bg-white/30 backdrop-blur-md p-10 rounded-2xl shadow-lg min-h-[350px]">
+        <h3 class="text-3xl font-bold mb-3">Game Tetris with Java</h3>
+        <p class="mb-3 text-xl">Object-Oriented Tetris Game</p>
+        <div class="flex flex-wrap gap-2 mb-4">
+          <span class="bg-black text-white px-3 py-1 rounded-full text-xl">Java</span>
+          <span class="bg-black text-white px-3 py-1 rounded-full text-xl">SceneBuilder</span>
+        </div>
+        <a href="https://github.com/aliaaja/Projek_PBO" class="text-red-600 hover:underline text-xl">View on GitHub</a>
+      </div>
+
+      <!-- Project 3 -->
+      <div class="bg-white/30 backdrop-blur-md p-10 rounded-2xl shadow-lg min-h-[350px]">
+        <h3 class="text-3xl font-bold mb-3">MoKafe</h3>
+        <p class="mb-3 text-xl">Cafe Recommendation in Bandar Lampung</p>
+        <div class="flex flex-wrap gap-2 mb-4">
+          <span class="bg-black text-white px-3 py-1 rounded-full text-xl">JavaScript</span>
+          <span class="bg-black text-white px-3 py-1 rounded-full text-xl">HTML</span>
+        </div>
+        <a href="https://github.com/malsyacantika/UTP-ADSI-MoKafe" class="text-red-600 hover:underline text-xl">View on GitHub</a>
+      </div>
+    </div>
+  </main>
+</body>
+</html>
